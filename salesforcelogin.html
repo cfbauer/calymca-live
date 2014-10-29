@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta name="description" content="salesforce.com Customer Secure Login Page. Login to your salesforce.com Customer Account." />
+
+<title>salesforce.com - Customer Secure Login Page</title><link rel="stylesheet" type="text/css" href="/css/security_page.css" media="screen" />
+
+<link rel="stylesheet" type="text/css" href="/css/glowInput.css" media="screen" />
+
+<style type="text/css">
+body {
+	background-color: #fff;
+}#header {
+	background-color: #FFF;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}#headertext, #headertext a {color: #ffffff;}#main-logo {background:transparent url('/img/logo.png') no-repeat scroll left top}#contentwrap, .content{border-radius: 18px;-moz-border-radius:18px;-webkit-border-radius:18px;}#loginpage .content, #contentwrap{
+	background-color: #FFF;
+}#contentwrap{
+	border: 1px none #fffffffffff;
+}#footer, #footer a {color: #cccccc;}
+</style>
+
+<style type="text/css">
+	html { visibility: hidden; }
+</style>
+
+<script type="text/javascript">if (self == top) {document.documentElement.style.visibility = 'visible';} else {document.write = ''; top.location = self.location; setTimeout(function(){document.body.innerHTML='';}, 1);window.self.onload=function(evt){document.body.innerHTML='';};}</script>
+
+<script type="text/javascript">function doBookmark(){var btitle = 'salesforce.com - Customer Secure Login Page';var burl = 'https://login.salesforce.com/?locale=us';if (window.sidebar){window.sidebar.addPanel(btitle, burl, '');} else {window.external.AddFavorite(burl, btitle);}}</script>
+
+<script type="text/javascript" src="/jslibrary/1329331264000/sfdc/JiffyStubs.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/security_page_login.css" media="screen" />
+
+<style type="text/css">
+	#login_form_box {
+		border: 3px solid #FFF;
+	}#login_form_box{ border-radius: 18px; -moz-border-radius:18px; -webkit-border-radius:18px; }#shoutoutframe { border-radius: 25px; -moz-border-radius:25px; -webkit-border-radius:25px; }#infobarframe { border-radius: 25px; -moz-border-radius:25px; -webkit-border-radius:25px; }
+</style>
+
+<script type="text/javascript">function handleLogin() {document.login.un.value = document.login.username.value;document.login.width.value = screen.width;document.login.height.value = screen.height;}</script>
+
+<script type="text/javascript" src="/static/111811/js/baselogin.js"></script></head><body id="loginpage" onload="if(this.bodyOnLoad) bodyOnLoad();" onunload="if(this.bodyOnUnload) bodyOnUnload();">
+
+<div id="pagewrap"><a href="http://www.salesforce.com" id="main-logo"></a>
+
+<div id="headerwrap"><div id="header"></div></div><!-- .headerwrap -->
+
+<div id="contentwrap" >
+
+	<div id="content" class="content">
+
+		<div id="login_form_box">
+
+			<form id="login" name="login" method="post" onsubmit="handleLogin();" action="https://login.salesforce.com/" target="_top" >
+				<fieldset style="display:none">
+					<input type="hidden" name="un" value="" />
+					 <input type="hidden" name="width" value="" />
+					 <input type="hidden" name="height" value="" />
+					 <input type="hidden" name="hasRememberUn" value="true" />
+					 <input type="hidden" name="startURL" value="" />
+					 <input type="hidden" name="loginURL" value="" />
+					 <input type="hidden" name="loginType" value="" />
+					 <input type="hidden" name="useSecure" value="true" />
+					 <input type="hidden" name="local" value="" />
+					 <input type="hidden" name="lt" value="standard" />
+					 <input type="hidden" name="qs" value="r=http%3A%2F%2Fwww.salesforce.com%2F" />
+					 <input type="hidden" name="locale" value="" />
+					 <input type="hidden" name="oauth_token" value="" />
+					 <input type="hidden" name="oauth_callback" value="" />
+					 <input type="hidden" name="login" value="" />
+					 <input type="hidden" name="serverid" value="" />
+					 <input type="hidden" name="display" value="page" />
+				</fieldset>
+				<div class="inputs">
+					<div class="inputbox"><p>
+					  <input class="txtbox glow" type="text" id="username" name="username" />
+					  <input name="pw" type="password" class="txtbox glow" id="password" onkeypress="checkCaps(event)" size="18" autocomplete="off"/>
+					  <input class="loginButton" type="submit" id="Login" name="Login" value="Login" />
+					  <input class="checkbox" type="checkbox" id="rememberUn" name="rememberUn" checked="checked"/>
+					  <label for="rememberUn">Remember User Name</label> 
+					  <a class="forgotpass" href="/secur/forgotpassword.jsp?locale=us">Forgot your password?</a></p>
+					</div>
+
+					<div id="pwcaps" class="pwcaps" style="display:none">
+						<img src="/login/assets/warning16.png" alt="Caps Lock is ON!" /> Caps Lock is ON!
+					</div>
+
+					<div class="inputbox"></div>
+
+					<div class="inputbox"></div>
+
+				</div>
+
+				<div class="hidesubmit"></div>
+			</form>
+
+		</div>
+
+	</div>
+
+</div><!-- #footer --></div>
+
+
+<p>
+  <!-- #pagewrap -->
+  
+  
+  <!-- Body events -->
+  <script type="text/javascript">
+function bodyOnLoad() {
+	if (window.PreferenceBits){window.PreferenceBits.prototype.csrfToken =  "null";};
+
+	if (window.Jiffy && Jiffy.onLoad) Jiffy.onLoad();
+	if (window.Jiffy && window.Jiffy.ui && Jiffy.ui.onLoad) Jiffy.ui.onLoad();
+}
+
+function bodyOnBeforeUnload() {
+}
+
+function bodyOnFocus() {
+}
+
+function bodyOnUnload() {
+}
+</script>
+</p>
+
+</body></html>
+
