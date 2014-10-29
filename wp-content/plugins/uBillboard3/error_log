@@ -1,5 +1,0 @@
-[24-Aug-2013 14:07:41] PHP Fatal error:  Call to undefined function  get_option() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/billboard.php on line 69
-[19-Nov-2013 20:45:55] PHP Fatal error:  Call to undefined function  get_option() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/billboard.php on line 69
-[24-Feb-2014 19:00:54] PHP Fatal error:  Call to undefined function  get_option() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/billboard.php on line 69
-[22-Jul-2014 07:27:13 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/billboard.php on line 69
-[22-Jul-2014 07:31:25 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/billboard.php on line 69

@@ -1,4 +1,0 @@
-[21-Feb-2014 04:05:29] PHP Warning:  fopen(../cache/timthumb_int_3e6f6930cfb94124dbd6aea0280062dd.timthumb.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/lib/timthumb.php on line 995
-[24-Feb-2014 19:02:31] PHP Fatal error:  Call to undefined function  add_shortcode() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/lib/shortcodes.php on line 3
-[24-Feb-2014 19:02:39] PHP Fatal error:  Call to undefined function  __() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/lib/uBillboard.class.php on line 7
-[24-Feb-2014 19:03:03] PHP Fatal error:  Call to undefined function  __() in /home2/calymca/public_html/calymca-wordpress/wp-content/plugins/uBillboard3/lib/uBillboardSlide.class.php on line 7
