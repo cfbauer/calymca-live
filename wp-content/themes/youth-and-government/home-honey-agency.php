@@ -10,15 +10,35 @@ Template Name: Home Honey Agency Tax Time
 
 
 				<div id="slider-map">
-					<?php the_uds_billboard(homepage) ?>
+					<div class="slider-wrapper">
+						
+						<?php
+							$args = array( 'post_type' => 'homepage_slide', 'posts_per_page' => 10 );
+							$loop = new WP_Query( $args );
+							while ( $loop->have_posts() ) : $loop->the_post();
+								echo '<div class="slide">';
+									if ( has_post_thumbnail() ) {
+										the_post_thumbnail( 'homepage-slider-image');
+									} 
+									?>
+									<div class="entry-content">
+										<a href="<?php the_field('page_link'); ?>">
+											<?php the_title( '<h3>', '</h3>'); ?>
+											<?php the_content(); ?>
+										</a>
+									</div><!-- /entry-content -->
+								</div><!-- /slide -->
+							<?php endwhile; ?>
+
+						
+					</div><!-- /slider-wrapper -->
 
 					<div id="map">
-					<a href="http://calymca.org/calymca-wordpress/wp-content/uploads/2014/10/2014AnnualReport-FINAL.pdf"><img src="<?php bloginfo('template_directory'); ?>/library/images/2014AnnualReport.png" style="margin-right: 10px;"></a>
+					<a href="http://www.trueimageconcepts.com/YMCAAnnualReport/index.html"><img src="<?php bloginfo('template_directory'); ?>/library/images/2014AnnualReport.png" style="margin-right: 10px;"></a>
 
 					</div><!-- /map -->
 
 				</div><!-- /slider-map -->
-
 
 				<div id="big-buttons">
 					<a href="/programs/" class="col300">Participate</a>

@@ -11,7 +11,7 @@ sidebars, comments, ect.
 // Get Bones Core Up & Running!
 require_once('library/bones.php');            // core functions (don't remove)
 require_once('library/plugins.php');          // plugins & extra functions (optional)
-require_once('library/custom-post-type.php'); // custom post type example
+require_once('library/post-type-homepage-slide.php'); // custom post type example
 
 // Admin Functions (commented out by default)
 // require_once('library/admin.php');         // custom admin functions
@@ -21,6 +21,9 @@ require_once('library/custom-post-type.php'); // custom post type example
 // Thumbnail sizes
 add_image_size( 'bones-thumb-600', 600, 150, true );
 add_image_size( 'bones-thumb-300', 300, 100, true );
+add_image_size( 'homepage-slider-image', 610, 320, true );
+
+add_theme_support('post-thumbnails');
 /* 
 to add more sizes, simply copy a line from above 
 and change the dimensions & name. As long as you

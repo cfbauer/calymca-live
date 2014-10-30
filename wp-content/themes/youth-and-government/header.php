@@ -33,14 +33,11 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/normalize.css">		
 		
 		<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+		<!-- Sadly using two version of jQuery for now. Slick slider jQuery is in the footer -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write(unescape('%3Cscript src="<?php echo get_template_directory_uri(); ?>/library/js/libs/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
-		
-		<script type="text/javascript">
 
-  
-</script>
-		<!-- end analytics -->
+		
 		
 		<!-- modernizr -->
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.full.min.js"></script>
@@ -50,6 +47,8 @@
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
+
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/library/js/slick/slick.css"/>
 		
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 

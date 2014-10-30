@@ -28,7 +28,16 @@ func();}}}}
 
 // as the page loads, cal these scripts
 $(document).ready(function() {
-
+	$('.slider-wrapper').slick({
+	  dots: false,
+	  infinite: true,
+	  speed: 500,
+	  fade: true,
+	  slide: '.slide',
+	  cssEase: 'linear',
+	  autoplay:true,
+	  autoplaySpeed:8000
+	});
 
 
 	// add all your scripts here
