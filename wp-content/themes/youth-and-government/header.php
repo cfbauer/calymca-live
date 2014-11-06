@@ -50,7 +50,7 @@
 
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/library/js/slick/slick.css"/>
 		
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/library/css/style.css" />
 
 		<!-- disable crappy IE gradients in favor of CSS ones -->
 		<!--[if gte IE 9]>
