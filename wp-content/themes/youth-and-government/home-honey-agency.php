@@ -34,7 +34,7 @@ Template Name: Home Honey Agency Tax Time
 					</div><!-- /slider-wrapper -->
 
 					<div id="map">
-					<a href="http://www.trueimageconcepts.com/YMCAAnnualReport/index.html"><img src="<?php bloginfo('template_directory'); ?>/library/images/2014AnnualReport.png" style="margin-right: 10px;"></a>
+					<a href="http://calymca.org/calymca-wordpress/wp-content/uploads/2014/10/2014AnnualReport-FINAL.pdf"><img src="<?php bloginfo('template_directory'); ?>/library/images/2014AnnualReport.png" style="margin-right: 10px;"></a>
 
 					</div><!-- /map -->
 
