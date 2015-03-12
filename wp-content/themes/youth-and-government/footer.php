@@ -6,7 +6,7 @@
 						<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 
-					<a href="http://weblink.donorperfect.com/calymcadonation" id="footer-donate">Donate</a>
+					<a href="http://ymcagivetoday.org/calymcayg" id="footer-donate">Donate</a>
 
 					<?php if ( is_front_page() ) {
 

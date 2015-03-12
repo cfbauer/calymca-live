@@ -10,3 +10,8 @@
 [22-Jul-2014 07:36:19 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/plugins.php on line 81
 [22-Jul-2014 07:39:23 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/admin.php on line 87
 [22-Jul-2014 07:39:41 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/custom-post-type.php on line 61
+[25-Feb-2015 05:09:44 America/Chicago] PHP Fatal error:  Call to undefined function load_theme_textdomain() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/bones.php on line 13
+[25-Feb-2015 05:09:47 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/plugins.php on line 81
+[25-Feb-2015 05:10:13 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/admin.php on line 87
+[25-Feb-2015 05:10:22 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/post-type-homepage-slide.php on line 40
+[25-Feb-2015 05:10:30 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/calymca/public_html/calymca-wordpress/wp-content/themes/youth-and-government/library/custom-post-type.php on line 61

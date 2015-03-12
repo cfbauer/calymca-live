@@ -29,7 +29,7 @@ Template Name: Home Custom Y&G Page
 				<div id="big-buttons">
 					<a href="/programs/" class="col300">Participate</a>
 					<a href="/get-involved/volunteer-opportunities/" class="col300">Volunteer</a>
-					<a href="/get-involved/fundraising-projects/" class="col300">Give</a>
+					<a href="www.ymcagivetoday.org/calymcayg" class="col300">Give</a>
 
 				</div>
 

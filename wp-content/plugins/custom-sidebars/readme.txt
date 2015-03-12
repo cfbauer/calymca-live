@@ -119,6 +119,12 @@ If you are running a earlier version of Wordpress download Custom Sidebars 0.8.2
 
 == Changelog ==
 
+= 2.1.0.1 =
+* Fix incompatibility with PopUp plugin
+
+= 2.1.0.0 =
+* Fixed: Sidebars could not be created on certain webserver setups.
+
 = 2.0.9.9 =
 * Fixed: Minified CSS files included now.
 
